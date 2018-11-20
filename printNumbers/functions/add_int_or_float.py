@@ -25,6 +25,8 @@ def add_two_values(a, b):
     :param a: as int or float
     :param b: as int or float
     :return: sum as int or float depending in input type
+
+    BUT this function will also add stings like 'a' + 'b' -> 'ab' which it is not suppesed to do...
     '''
     sum = a + b
     return sum
